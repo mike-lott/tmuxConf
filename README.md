@@ -10,5 +10,4 @@ Running `./setup.sh` will always check if the above files and directories are al
 ## Remove
 From the cloned directory, run `./remove.sh`. This will do the following:
 * Delete the softlink, `~/.tmux.conf`
-* Delete the cloned directory and all its contents
-* The `remove.sh` will self-delete
+* Delete the cloned directory and all its contents (which will also delete the file `remove.sh`)
